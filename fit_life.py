@@ -20,8 +20,9 @@ water_l = water_ml / ML_IN_L
 result_water_l = round(water_l, 1)
 
 print(
-    f'Отчет для пользователя: {user_name} {user_age}г. \n'
-    f'Ваш Индекс Массы Тела: {result_bmi} \n'
-    f'Рекомендуемая норма воды: {result_water_l} л. в день \n'
-    'Расчет окончен. Будьте здоровы!'
+    f'Отчет для пользователя: {user_name}, {user_age} г.',
+    f'Ваш Индекс Массы Тела: {result_bmi}',
+    f'Рекомендуемая норма воды: {result_water_l} л. в день',
+    'Расчет окончен. Будьте здоровы!',
+    sep='\n'
 )
