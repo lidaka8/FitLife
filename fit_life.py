@@ -5,7 +5,7 @@ print('Посчитаем Ваш ИМТ (Индекс Массы Тела), и �
 user_weight = float(input('Какой Ваш вес? '))
 while True:
     try:
-        user_height = float(input('Ваш рост в м. (используйте точку, 1.75)? '))
+        user_height = float(input('Ваш рост в м.(используйте точку, 1.75)? '))
         break
     except ValueError:
         print('Ошибка: используйте точку, для ввода роста')
